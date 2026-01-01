@@ -6,6 +6,8 @@ import 'package:blinkitapp/repo/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
 class Navbar extends StatefulWidget {
+  const Navbar({super.key});
+
   @override
   State<Navbar> createState() {
     return _NavbarState();

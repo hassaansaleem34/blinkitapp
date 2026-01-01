@@ -4,7 +4,6 @@ import 'package:blinkitapp/domain/constants/appcolors.dart';
 import 'package:blinkitapp/repo/screens/logincreen.dart';
 import 'package:blinkitapp/repo/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Splashscreen extends StatefulWidget {
   const Splashscreen({super.key});

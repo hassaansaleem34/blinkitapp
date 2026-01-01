@@ -5,6 +5,8 @@ import 'package:flutter/widgets.dart';
 class cartscreen extends StatelessWidget {
   TextEditingController searchcontrol = TextEditingController();
 
+  cartscreen({super.key});
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
