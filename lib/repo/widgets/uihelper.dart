@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 
 class uihelper {
-  static CustomImage({required String img}) {
-    return Image.asset("assets/images/$img");
+  static CustomImage({required String img, int? h, int? w}) {
+    return Image.asset(
+      "assets/images/$img",
+      height: h?.toDouble(),
+      width: w?.toDouble(),
+    );
   }
 
   static Customtext({
@@ -56,16 +60,14 @@ class uihelper {
         borderRadius: BorderRadius.circular(1),
         border: Border.all(color: Color(0xff27AF34)),
       ),
-      child:Center(
-      
-      child: uihelper.Customtext(
-        text: "ADD",
-        color: Color(0xff27AF34),
-        fontweight: FontWeight.w400,
-        fontsize: 6,
+      child: Center(
+        child: uihelper.Customtext(
+          text: "ADD",
+          color: Color(0xff27AF34),
+          fontweight: FontWeight.w400,
+          fontsize: 6,
+        ),
       ),
-      )
     );
-    
   }
 }

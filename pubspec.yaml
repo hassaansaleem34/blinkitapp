@@ -84,6 +84,11 @@ fonts:
         - asset: assets/fonts/Poppins-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+  
+   - family: inter
+     fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+          # weight: 700
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
