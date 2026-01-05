@@ -148,7 +148,7 @@ class printts extends StatelessWidget {
                         SizedBox(width: 5),
                         uihelper.Customtext(
                           text: "Price starting at rs 3/page",
-                          color: Color(0xff9C9C9C),
+                          color: Color.fromARGB(255, 6, 6, 6),
                           fontweight: FontWeight.normal,
                           fontsize: 14,
                         ),
@@ -161,7 +161,7 @@ class printts extends StatelessWidget {
                         SizedBox(width: 5),
                         uihelper.Customtext(
                           text: "Paper quality: 70 GSM",
-                          color: Color(0xff9C9C9C),
+                          color: Color.fromARGB(255, 6, 6, 6),
                           fontweight: FontWeight.normal,
                           fontsize: 14,
                         ),
@@ -174,7 +174,7 @@ class printts extends StatelessWidget {
                         SizedBox(width: 5),
                         uihelper.Customtext(
                           text: "Single side prints",
-                          color: Color(0xff9C9C9C),
+                          color: Color.fromARGB(255, 6, 6, 6),
                           fontweight: FontWeight.normal,
                           fontsize: 14,
                         ),

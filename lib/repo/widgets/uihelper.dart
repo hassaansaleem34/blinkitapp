@@ -45,7 +45,15 @@ class uihelper {
           prefixIcon: uihelper.CustomImage(
             img: "search-interface-symbol 1.png",
           ),
-          suffixIcon: uihelper.CustomImage(img: "mic 1.png"),
+          suffixIcon: InkWell(
+            onTap: () {
+              print("Mic clicked");
+            },
+            child: Padding(
+              padding: EdgeInsets.all(12),
+              child: uihelper.CustomImage(img: "mic 1.png"),
+            ),
+          ),
         ),
       ),
     );

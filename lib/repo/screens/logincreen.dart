@@ -93,11 +93,16 @@ class loginscreen extends StatelessWidget {
                       ),
                       SizedBox(height: 10),
 
-                      uihelper.Customtext(
-                        text: "or login with phone number",
-                        color: Color(0xff269237),
-                        fontweight: FontWeight.normal,
-                        fontsize: 14,
+                      TextButton(
+                        onPressed: () {
+                          print("Login with phone");
+                        },
+                        child: uihelper.Customtext(
+                          text: "or login with phone number",
+                          color: Color(0xff269237),
+                          fontweight: FontWeight.normal,
+                          fontsize: 14,
+                        ),
                       ),
                     ],
                   ),
